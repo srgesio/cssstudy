@@ -1,0 +1,367 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="../styles/main.css">
+    <link rel="stylesheet" href="../styles/flex.css">
+    <title>Display Flex</title>
+</head>
+
+<body>
+
+    <div class="main-container">
+        <header>
+            <a href="../index.html">
+                ◄ Voltar
+            </a>
+        </header>
+        <h1>
+            Display Flex
+        </h1>
+
+        <h2>
+            Properties for the Parent
+        </h2>
+
+        <details class="topic">
+            <summary>
+                <code>flex-direction</code>
+            </summary>
+            <code>flex-direction: row;</code>
+            <section class="flex-direction row">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+
+            <code>flex-direction: row-reverse;</code>
+            <section class="flex-direction row reverse">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+
+            <code>flex-direction: column;</code>
+            <section class="flex-direction column">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>flex-direction: column-reverse;</code>
+            <section class="flex-direction column reverse">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>flex-wrap</code>
+            </summary>
+            <code>flex-wrap: nowrap;</code>
+            <section class="flex-wrap nowrap">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>flex-wrap: wrap;</code>
+            <section class="flex-wrap wrap">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>flex-wrap: wrap-reverse;</code>
+            <section class="flex-wrap wrap reverse">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+
+        </details>
+        <details class="topic">
+            <summary>
+                <code>flex-flow</code>
+            </summary>
+            <code>flex-flow: column wrap;</code>
+            <section class="flex-wrap flex-flow column wrap">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>justify-content</code>
+            </summary>
+            <code>justify-content: flex-start;</code>
+            <section class="justify-content flex-start">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>justify-content: flex-end;</code>
+            <section class="justify-content flex-end">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>justify-content: center;</code>
+            <section class="justify-content center">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>justify-content: space-between;</code>
+            <section class="justify-content space-between">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>justify-content: space-around;</code>
+            <section class="justify-content space-around">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>justify-content: space-evenly;</code>
+            <section class="justify-content space-evenly">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>align-items</code>
+            </summary>
+            <code>align-items: flex-start;</code>
+            <section class="align-items flex-start">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-items: flex-end;</code>
+            <section class="align-items flex-end">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-items: center;</code>
+            <section class="align-items center">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-items: stretch;</code>
+            <section class="align-items stretch">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-items: baseline;</code>
+            <section class="align-items baseline">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>align-content</code>
+            </summary>
+            <code>align-content: flex-start;</code>
+            <section class="align-content flex-start">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-content: flex-end;</code>
+            <section class="align-content flex-end">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-content: center;</code>
+            <section class="align-content center">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-content: space-between;</code>
+            <section class="align-content space-between">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-content: space-around;</code>
+            <section class="align-content space-around">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>align-content: stretch;</code>
+            <section class="align-content stretch">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>gap, row-gap, column-gap</code>
+            </summary>
+            <code>gap: 8px;</code>
+            <section class="gap">
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>row-gap: 8px;</code>
+            <section class="row-gap">
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>column-gap: 8px;</code>
+            <section class="column-gap">
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+
+            <code>gap: 8px 16px;</code>
+            <section class="gap row-gap column-gap">
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+
+        <h2>
+            Properties for the Children
+        </h2>
+        <details class="topic">
+            <summary>
+                <code>order</code>
+            </summary>
+            <code>order: 0</code> <i>(default)</i>
+            <section class="order default">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>order: ?</code> <i>(reordered)</i>
+            <section class="order reordered">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>flex-grow</code>
+            </summary>
+            <code>flex-grow: 1</code> <i>(default)</i>
+            <section class="flex-grow default">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>flex-grow: 2</code> <i>(resized)</i>
+            <section class="flex-grow resized">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+        <details class="topic">
+            <summary>
+                <code>flex-shrink</code>
+            </summary>
+            <code>flex-shrink: 1</code> <i>(default)</i>
+            <section class="flex-shrink default">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+            <code>flex-shrink: 2</code> <i>(shrinked)</i>
+            <section class="flex-shrink shrinked">
+
+                <div id="item1" class="item">1</div>
+                <div id="item2" class="item">2</div>
+                <div id="item3" class="item">3</div>
+                <div id="item4" class="item">4</div>
+            </section>
+        </details>
+    </div>
+
+</body>
+
+</html>
